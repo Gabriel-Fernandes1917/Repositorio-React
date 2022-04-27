@@ -16,13 +16,15 @@ function HomePage(){
             </nav>
         </header>
         <div className="field">
-            <div>
+            <div className="Introdution">
                 <p>
-                    Creative UI Designer
-                    Sourasith Phomhome
-                    Based in Montreal
+                    Dev front-end <br/>
+                    Ux Design
+
                 </p>
-                
+                <button>
+                    Baixar curriculo
+                </button>
             </div>
         </div>    
         </>

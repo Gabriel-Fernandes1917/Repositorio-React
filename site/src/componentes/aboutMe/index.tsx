@@ -1,13 +1,13 @@
-import '../../'
+import '../../style/aboutMe.css'
 
 function AboutMe(){
     return(
         <>
             <div className='circle'>
-                Dobre mim
+              
             </div>
         </>
     )
 }
 
-export default AboutMe
+export default AboutMe;

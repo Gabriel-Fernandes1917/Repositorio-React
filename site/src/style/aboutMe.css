@@ -2,7 +2,7 @@
 .circle{
     width: 39.37rem;
     height: 39.37rem;
-
+    margin: auto auto auto auto;
     background: linear-gradient(144.11deg, #C961DE 13.74%, #2954A3 90.91%);
     border-radius: 21.87rem;
 }

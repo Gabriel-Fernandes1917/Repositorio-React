@@ -6,12 +6,13 @@ module.exports = {
   theme: {
     fontFamily:{
       'IBM': ['IBM Plex Mono', 'monospace'],
-      'Raleway': ['Raleway', 'sans-serif']
+      'Raleway': ['Raleway', 'sans-serif'],
+      'Montserrat': ['Montserrat', 'sans-serif'],
     },
     extend: {
       backgroundColor: {
         bgDark: '#080808',
-        bgNoDark: '#F5F5F5'
+        bgNoDark: '#F5F5F5',
       },
       backgroundImage: {
         linkedin: './src/assets/iconLinkedin.png',

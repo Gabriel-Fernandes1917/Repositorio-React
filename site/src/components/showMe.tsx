@@ -7,8 +7,8 @@ interface rede {
 }
 
 const redes=[
-    {alt: "Linkedin", icon: "./src/assets/iconLinkedin.png"},
-    {alt: "GitHub", icon: "./src/assets/iconGit.png"}
+    {alt: "Linkedin", icon: "./src/assets/icons/iconLinkedinPS.png", link: "https://www.linkedin.com/in/gabriel-guilherme-santos-fernandes/"},
+    {alt: "GitHub", icon: "./src/assets/icons/iconGitPS.png",  link: "https://github.com/Gabriel-Fernandes1917"}
 ]
 
 
@@ -26,7 +26,9 @@ export function ShowMe() {
                             </h1>
                             <div className="mt-6">
                                 <p className="text-xl text-grayText font-medium font-IBM">
-                                    Ola sou programador Web Front-end JS, sou apaixonado por empreendedorismo, inovações e desafios principalemnte
+                                    {/* Ola sou programador Web Front-end, sou apaixonado por empreendedorismo e inovações. */}
+                                    {/* Sou programador Web Front-end jr */}
+                                    Desenvolvedor junior front-end / Ux Design
                                 </p>
                             </div>
                         </div>
@@ -38,11 +40,11 @@ export function ShowMe() {
                 <p className="text-2xl">Deslise para baixo para ver mais</p>
                 <img src="./src/assets/iconDown.png" alt="IconDown" className="mx-auto"/>
                 </div> */}
-                <h3 className="font-IBM text-lg">Minhas redes </h3>
+                <h3 className="font-IBM text-xl">Minhas redes </h3>
                 <div className="flex mt-5">
 
                    {redes.map((item, index) =>(
-                     <ButtonIcon alt={item.alt} css={"w-20 h-20"} img={item.icon}/>   
+                     <ButtonIcon alt={item.alt} css={"w-20 h-20 mr-[50px] hover:scale-110 transition-all duration-500 "} img={item.icon} link={item.link}/>   
                    ))}
 
                 </div>

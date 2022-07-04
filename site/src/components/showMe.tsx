@@ -1,6 +1,8 @@
 import { ButtonIcon } from "./ButtonIcon"
 import iconLinkedin from "../assets/icons/iconLinkedinPS.png"
-import iconGitPS from "../assets/icons/iconGitPS.png"
+// import iconGitPS from "../assets/icons/iconGitPS.png"
+
+let iconGitPS = "https://img.icons8.com/plasticine/120/000000/github-squared.png"
 
 interface rede {
     icon: string

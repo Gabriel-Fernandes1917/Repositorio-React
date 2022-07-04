@@ -1,4 +1,5 @@
 import { ButtonIcon } from "./ButtonIcon";
+import iconLinkedin from "../assets/icons/iconLinkedinPS.png"
 
 export function Contact() {
     
@@ -15,7 +16,7 @@ export function Contact() {
                     <div className="">
                         <div className="text-4xl mt-11">Email: <span className="text-3xl mt-2 ml-9 ">gabgui2001@gmail.com</span></div>
 
-                        <div className="text-4xl mt-11 text">LinkedIn: <ButtonIcon alt="LinkedIn" css="w-14 h-14  ml-8 hover:scale-110 transition-all duration-500" img="./src/assets/icons/iconLinkedinPS.png" link="https://www.linkedin.com/in/gabriel-guilherme-santos-fernandes/"/></div>
+                        <div className="text-4xl mt-11 text">LinkedIn: <ButtonIcon alt="LinkedIn" css="w-14 h-14  ml-8 hover:scale-110 transition-all duration-500" img={iconLinkedin} link="https://www.linkedin.com/in/gabriel-guilherme-santos-fernandes/"/></div>
                         
                     </div>
 

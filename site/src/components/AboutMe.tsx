@@ -1,24 +1,34 @@
 import { SkillsIcon } from "./SkillsIcon"
+import iconHTML from "../assets/icons/iconHTML.png"
+import iconJS from "../assets/icons/iconJS.png"
+import iconFigma from "../assets/icons/iconFigma.png"
+import iconGit from "../assets/icons/iconGit.png"
+import iconCSS from "../assets/icons/iconCSS.png"
+import iconTS from "../assets/icons/iconTS.png"
+import iconTailwindcss from "../assets/icons/iconTailwindcss.png"
+import iconReact from "../assets/icons/iconReact.png"
+import iconUK from "../assets/icons/iconUK.svg"
+import iconArduino from "../assets/icons/iconArduino.png"
 
 export function AboutMe() {
     
 
     const skills = [
-        {nome: "HTML", icon: "./src/assets/icons/iconHTML.png"},
-        {nome: "JS", icon: "./src/assets/icons/iconJS.png"},
-        {nome: "Figma", icon: "./src/assets/icons/iconFigma.png"},
-        {nome: "GIT", icon: "./src/assets/icons/iconGit.png"},
-        {nome: "CSS", icon: "./src/assets/icons/iconCSS.png"}
+        {nome: "HTML", icon: iconHTML},
+        {nome: "JS", icon: iconJS},
+        {nome: "Figma", icon: iconFigma},
+        {nome: "GIT", icon: iconGit},
+        {nome: "CSS", icon: iconCSS}
     ]
 
     const learning =[
-        {nome: "TS", icon: "./src/assets/icons/iconTS.png"},
-        {nome: "Tailwind", icon: "./src/assets/icons/iconTailwindcss.png"},
-        {nome: "React", icon: "./src/assets/icons/iconReact.png"}
+        {nome: "TS", icon: iconTS},
+        {nome: "Tailwind", icon: iconTailwindcss},
+        {nome: "React", icon: iconReact}
     ]
 
     const otherSkills = [
-        {nome: "Inglês", icon: "./src/assets/icons/iconUK.svg"},
+        {nome: "Inglês", icon: iconUK},
         {nome: "Arduino", icon: "./src/assets/icons/iconArduino.png"}
     ]
 

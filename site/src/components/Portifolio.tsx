@@ -1,12 +1,15 @@
 import { ButtonIcon } from "./ButtonIcon"
 import { Work } from "./Works"
+import caloriametrimetro from "../assets/works/caloriametrimetro.png"
+import igniteLab from "../assets/works/igniteLab.png"
+import iconGitPS from "../assets/icons/iconGitPS.png"
 
 export function Portifolio() {
     
     const works = [
-        {nome: "caloria metrimetro", thumb: "./src/assets/works/caloriametrimetro.png", text: "Site que calcula quanto tempo de exercicio você precisa para perder peso desejado", git: "https://github.com/Gabriel-Fernandes1917/calorimeter", 
+        {nome: "caloria metrimetro", thumb: caloriametrimetro , text: "Site que calcula quanto tempo de exercicio você precisa para perder peso desejado", git: "https://github.com/Gabriel-Fernandes1917/calorimeter", 
         tag:["HTML", "CSS", "JS"], site:"https://gabriel-fernandes1917.github.io/calorimeter/indexPTBR.html"},
-        {nome: "Plataforma de Estudos", thumb: "./src/assets/works/igniteLab.jfif", text: "Plataforma de ensino online", git: "https://github.com/Gabriel-Fernandes1917/IgniteLab",  tag:["TS", "Tailwind", "React"], site: "https://ignitelab-seven.vercel.app/"}
+        {nome: "Plataforma de Estudos", thumb: igniteLab, text: "Plataforma de ensino online", git: "https://github.com/Gabriel-Fernandes1917/IgniteLab",  tag:["TS", "Tailwind", "React"], site: "https://ignitelab-seven.vercel.app/"}
     ]
 
     return(
@@ -39,7 +42,7 @@ export function Portifolio() {
                                     ))}
                                    
                                 </div>
-                                <ButtonIcon alt={item.nome} css={"mt-2 w-[40px] h-[40px] hover:scale-110 transition-all duration-500"} img={"./src/assets/icons/iconGitPS.png"} link={item.git}/>
+                                <ButtonIcon alt={item.nome} css={"mt-2 w-[40px] h-[40px] hover:scale-110 transition-all duration-500"} img={iconGitPS} link={item.git}/>
                             </div>
                         ))}
                     </div>

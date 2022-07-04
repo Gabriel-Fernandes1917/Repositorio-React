@@ -1,4 +1,6 @@
 import { ButtonIcon } from "./ButtonIcon"
+import iconLinkedin from "../assets/icons/iconLinkedinPS.png"
+import iconGitPS from "../assets/icons/iconGitPS.png"
 
 interface rede {
     icon: string
@@ -7,8 +9,8 @@ interface rede {
 }
 
 const redes=[
-    {alt: "Linkedin", icon: "./src/assets/icons/iconLinkedinPS.png", link: "https://www.linkedin.com/in/gabriel-guilherme-santos-fernandes/"},
-    {alt: "GitHub", icon: "./src/assets/icons/iconGitPS.png",  link: "https://github.com/Gabriel-Fernandes1917"}
+    {alt: "Linkedin", icon: iconLinkedin, link: "https://www.linkedin.com/in/gabriel-guilherme-santos-fernandes/"},
+    {alt: "GitHub", icon: iconGitPS,  link: "https://github.com/Gabriel-Fernandes1917"}
 ]
 
 

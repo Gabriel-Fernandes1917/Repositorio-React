@@ -2,8 +2,8 @@ import { ButtonIcon } from "./ButtonIcon"
 import { Work } from "./Works"
 import caloriametrimetro from "../assets/works/caloriametrimetro.png"
 import igniteLab from "../assets/works/igniteLab.png"
-import iconGitPS from "../assets/icons/iconGitPS.png"
-// "https://img.icons8.com/color/48/000000/github--v1.png"
+// import iconGitPS from "../assets/icons/iconGitPS.png"
+let iconGitPS = "https://img.icons8.com/color/48/000000/github--v1.png"
 
 export function Portifolio() {
     

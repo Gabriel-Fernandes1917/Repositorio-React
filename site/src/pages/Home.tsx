@@ -1,4 +1,5 @@
 import { AboutMe } from "../components/AboutMe";
+import { Contact } from "../components/Contact";
 import { Portifolio } from "../components/Portifolio";
 import { ShowMe } from "../components/showMe";
 
@@ -10,6 +11,7 @@ export function Home() {
             <ShowMe />
             <AboutMe />
             <Portifolio />
+            <Contact />
         </div>
     )
 }

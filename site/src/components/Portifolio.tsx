@@ -1,8 +1,16 @@
+import { ButtonIcon } from "./ButtonIcon"
+import { Work } from "./Works"
 
 export function Portifolio() {
     
+    const works = [
+        {nome: "caloria metrimetro", thumb: "./src/assets/works/caloriametrimetro.png", text: "Site que calcula quanto tempo de exercicio você precisa para perder peso desejado", git: "https://github.com/Gabriel-Fernandes1917/calorimeter", 
+        tag:["HTML", "CSS", "JS"], site:"https://gabriel-fernandes1917.github.io/calorimeter/indexPTBR.html"},
+        {nome: "Plataforma de Estudos", thumb: "./src/assets/works/igniteLab.jfif", text: "Plataforma de ensino online", git: "https://github.com/Gabriel-Fernandes1917/IgniteLab",  tag:["TS", "Tailwind", "React"], site: "https://ignitelab-seven.vercel.app/"}
+    ]
+
     return(
-        <div className="bg-bgNoDark w-full h-fit pb-16 ">
+        <div className="bg-bgNoDark w-full h-screen  ">
             <div className="w-[80%] h-full pt-16 mx-auto">
                 <div className="w-[70rem] mx-auto">
                     {/* text about me */}
@@ -11,8 +19,29 @@ export function Portifolio() {
                        Segue abaixo alguns projetos pessoais e acadêmicos que produzir durante meus estudos.
                     </p>
 
-                    <div className="flex justify-between">
-                        
+
+                    <div className="flex justify-between mt-16">
+                        {works.map((item)=>(
+                            <div className="w-96 h-80">
+                                {/* <img src={item.thumb} alt={item.nome} className="w-fit h-fit rounded-lg"/> */}
+                                <Work site={item.site} css={"w-fit h-fit rounded-lg cursor-pointer hover:scale-110 hover:brightness-75 transition-all duration-500 "} thumb={item.thumb} nome={item.nome} />
+                                <h3 className="font-Raleway text-2xl mt-4">{item.nome}</h3>
+                                <p className="font-IBM text-xl mt-4 text-justify">{item.text}</p>
+
+                                <div className="w-full mt-3 flex">
+                               
+                                    {item.tag.map((item) =>(
+                                        <div className="mx-2 border-solid border-black border-2 my-auto p-1 min-w-[70px] text-center rounded">
+                                        <span className="cursor-default">
+                                            {item}
+                                        </span>
+                                        </div>
+                                    ))}
+                                   
+                                </div>
+                                <ButtonIcon alt={item.nome} css={"mt-2 w-[40px] h-[40px] hover:scale-110 transition-all duration-500"} img={"./src/assets/icons/iconGitPS.png"} link={item.git}/>
+                            </div>
+                        ))}
                     </div>
                 </div>
             

@@ -2,7 +2,7 @@ import { ButtonIcon } from "./ButtonIcon"
 import { Work } from "./Works"
 import caloriametrimetro from "../assets/works/caloriametrimetro.png"
 import igniteLab from "../assets/works/igniteLab.png"
-import iconGitPS from "../assets/icons/iconGitPS.png"
+// import iconGitPS from "../assets/icons/iconGitPS.png"
 
 export function Portifolio() {
     

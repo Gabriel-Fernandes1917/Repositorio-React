@@ -42,7 +42,7 @@ export function Portifolio() {
                                     ))}
                                    
                                 </div>
-                                <ButtonIcon alt={item.nome} css={"mt-2 w-[40px] h-[40px] hover:scale-110 transition-all duration-500"} img={iconGitPS} link={item.git}/>
+                                <ButtonIcon alt={item.nome} css={"mt-2 w-[60px] h-[60px] hover:scale-110 transition-all duration-500"} img={"https://img.icons8.com/color/48/000000/github--v1.png"} link={item.git}/>
                             </div>
                         ))}
                     </div>

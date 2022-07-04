@@ -1,8 +1,9 @@
 import { ButtonIcon } from "./ButtonIcon"
 import iconLinkedin from "../assets/icons/iconLinkedinPS.png"
-// import iconGitPS from "../assets/icons/iconGitPS.png"
+import iconGitPS from "../assets/icons/iconGitPS.png"
+import protfiINM from "../assets/protfiINM.jpg"
 
-let iconGitPS = "https://img.icons8.com/plasticine/120/000000/github-squared.png"
+// let iconGitPS = "https://img.icons8.com/plasticine/120/000000/github-squared.png"
 
 interface rede {
     icon: string
@@ -38,7 +39,7 @@ export function ShowMe() {
                         </div>
                     </div>
 
-                    <img src="./src/assets/protfiINM.jpg" alt="PictureMe" className="w-[400px] h-[400px] rounded-[50%] my-auto"/>
+                    <img src={protfiINM} alt="PictureMe" className="w-[400px] h-[400px] rounded-[50%] my-auto"/>
                 </div>
                 {/* <div className="w-fit mx-auto">
                 <p className="text-2xl">Deslise para baixo para ver mais</p>

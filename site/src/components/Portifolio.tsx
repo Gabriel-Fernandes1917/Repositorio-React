@@ -2,7 +2,8 @@ import { ButtonIcon } from "./ButtonIcon"
 import { Work } from "./Works"
 import caloriametrimetro from "../assets/works/caloriametrimetro.png"
 import igniteLab from "../assets/works/igniteLab.png"
-// import iconGitPS from "../assets/icons/iconGitPS.png"
+import iconGitPS from "../assets/icons/iconGitPS.png"
+// "https://img.icons8.com/color/48/000000/github--v1.png"
 
 export function Portifolio() {
     
@@ -42,7 +43,7 @@ export function Portifolio() {
                                     ))}
                                    
                                 </div>
-                                <ButtonIcon alt={item.nome} css={"mt-2 w-[60px] h-[60px] hover:scale-110 transition-all duration-500"} img={"https://img.icons8.com/color/48/000000/github--v1.png"} link={item.git}/>
+                                <ButtonIcon alt={item.nome} css={"mt-2 w-[60px] h-[60px] hover:scale-110 transition-all duration-500"} img={iconGitPS} link={item.git}/>
                             </div>
                         ))}
                     </div>

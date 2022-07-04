@@ -29,7 +29,7 @@ export function AboutMe() {
 
     const otherSkills = [
         {nome: "Inglês", icon: iconUK},
-        {nome: "Arduino", icon: "./src/assets/icons/iconArduino.png"}
+        {nome: "Arduino", icon: iconArduino}
     ]
 
 

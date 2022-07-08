@@ -14,7 +14,7 @@ export function Portifolio() {
     ]
 
     return(
-        <div className="bg-bgNoDark w-full h-screen  ">
+        <div className="bg-bgNoDark w-full h-screen  pb-11">
             <div className="w-[80%] h-full pt-16 mx-auto">
                 <div className="w-[70rem] mx-auto">
                     {/* text about me */}
@@ -24,7 +24,7 @@ export function Portifolio() {
                     </p>
 
 
-                    <div className="flex justify-between mt-16">
+                    <div className="flex justify-between mt-16 ">
                         {works.map((item)=>(
                             <div className="w-96 h-80">
                                 {/* <img src={item.thumb} alt={item.nome} className="w-fit h-fit rounded-lg"/> */}

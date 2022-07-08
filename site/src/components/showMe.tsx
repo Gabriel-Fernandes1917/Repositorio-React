@@ -26,7 +26,7 @@ export function ShowMe() {
                         <div className="w-[40rem] my-auto">
 
                             <h1 className="text-5xl font-Raleway font-extrabold">
-                                Gabriel Fernandes
+                                Gabriel Fernandes oi
                             </h1>
                             <div className="mt-6">
                                 <p className="text-xl text-grayText font-medium font-IBM">

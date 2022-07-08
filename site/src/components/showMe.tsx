@@ -19,7 +19,7 @@ const redes=[
 export function ShowMe() {
     
     return(
-        <div className="w-full h-[90vh] bg-bgDark text-white">
+        <div className="w-full h-[90vh] bg-bgDark text-white pb-7">
             <div className="w-[60%] mx-auto h-full">
                 <div className="flex w-full h-[80%] ">
                     <div className="mx-auto my-auto w-full">
@@ -45,7 +45,7 @@ export function ShowMe() {
                 <img src="./src/assets/iconDown.png" alt="IconDown" className="mx-auto"/>
                 </div> */}
                 <h3 className="font-IBM text-xl">Minhas redes </h3>
-                <div className="flex mt-5">
+                <div className="flex mt-2">
 
                    {redes.map((item, index) =>(
                      <ButtonIcon alt={item.alt} css={"w-20 h-20 mr-[50px] mb-[50xp] hover:scale-110 transition-all duration-500 "} img={item.icon} link={item.link}/>   

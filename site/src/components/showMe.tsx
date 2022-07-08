@@ -48,7 +48,7 @@ export function ShowMe() {
                 <div className="flex mt-5">
 
                    {redes.map((item, index) =>(
-                     <ButtonIcon alt={item.alt} css={"w-20 h-20 mr-[50px] hover:scale-110 transition-all duration-500 "} img={item.icon} link={item.link}/>   
+                     <ButtonIcon alt={item.alt} css={"w-20 h-20 mr-[50px] mb-[50xp] hover:scale-110 transition-all duration-500 "} img={item.icon} link={item.link}/>   
                    ))}
 
                 </div>

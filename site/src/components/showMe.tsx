@@ -21,11 +21,11 @@ export function ShowMe() {
     return(
         <div className="w-full h-[90vh] bg-bgDark text-white pb-7">
             <div className="w-[60%] mx-auto h-full">
-                <div className="flex w-full h-[80%] ">
+                <div className="flex w-full h-[80%] mx-auto">
                     <div className="mx-auto my-auto w-full">
                         <div className="w-[40rem] my-auto">
 
-                            <h1 className="text-5xl font-Raleway font-extrabold">
+                            <h1 className="text-4xl font-Raleway font-extrabold newScreen:text-5x1">
                                 Gabriel Fernandes
                             </h1>
                             <div className="mt-6">
@@ -38,7 +38,7 @@ export function ShowMe() {
                         </div>
                     </div>
 
-                    <img src={protfiINM} alt="PictureMe" className="w-[400px] h-[400px] rounded-[50%] my-auto"/>
+                    <img src={protfiINM} alt="PictureMe" className="w-[50vh] h-[50vh] rounded-[50%] my-auto mx-auto"/>
                 </div>
                 {/* <div className="w-fit mx-auto">
                 <p className="text-2xl">Deslise para baixo para ver mais</p>

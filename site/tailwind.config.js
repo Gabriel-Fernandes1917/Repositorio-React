@@ -4,6 +4,9 @@ module.exports = {
     './src/**/*.tsx'
   ],
   theme: {
+    screens:{
+      newScreen: '1366px'
+    },
     extend: {
       backgroundColor: {
         bgDark: '#080808',

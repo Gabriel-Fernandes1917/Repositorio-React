@@ -36,10 +36,10 @@ export function AboutMe() {
     return(
         <div className="bg-bgNoDark w-full h-fit pb-16">
             <div className="w-[80%] h-full pt-16 mx-auto">
-                <div className="w-[70rem] mx-auto ">
+                <div className="w-[90%] mx-auto ">
                     {/* text about me */}
                     <h2 className="mx-auto font-Raleway font-extrabold text-4xl text-center">Sobre mim</h2>
-                    <p className="font-IBM text-2xl h-full pt-5 text-justify">
+                    <p className="font-IBM text-2xl h-full pt-5 text-justify newScreen:text-lg">
                         Sou estudante de engenharia da computação. Gosto muito de inovações e empreendedorismo principalmente os voltados para a área de programação web. Atualmente foco meus estudos e projetos em JavaScript, linguagem a qual quero me profissionalizar. Estou sempre em busca de novos conhecimentos e desafios que possibilitem expandir e aprimorar minhas habilidades. Compartilhar aprendizados, solucionar problemas, falar em público e conhecimento diversificado são meus principais diferenciais.
                     </p>
                 </div>

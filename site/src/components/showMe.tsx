@@ -29,7 +29,7 @@ export function ShowMe() {
                                 Gabriel Fernandes
                             </h1>
                             <div className="mt-6">
-                                <p className="text-sm text-grayText font-medium font-IBM newScreen:text-x1">
+                                <p className="text-x1 text-grayText font-medium font-IBM">
                                     {/* Ola sou programador Web Front-end, sou apaixonado por empreendedorismo e inovações. */}
                                     {/* Sou programador Web Front-end jr */}
                                     Desenvolvedor junior front-end / Ux Design
@@ -44,11 +44,11 @@ export function ShowMe() {
                 <p className="text-2xl">Deslise para baixo para ver mais</p>
                 <img src="./src/assets/iconDown.png" alt="IconDown" className="mx-auto"/>
                 </div> */}
-                <h3 className="font-IBM text-xl">Minhas redes </h3>
-                <div className="flex mt-2">
+                <h3 className="font-IBM text-xl ">Minhas redes </h3>
+                <div className="flex mt-2 ">
 
                    {redes.map((item, index) =>(
-                     <ButtonIcon alt={item.alt} css={"w-20 h-20 mr-[50px] mb-[50xp] hover:scale-110 transition-all duration-500 "} img={item.icon} link={item.link}/>   
+                     <ButtonIcon alt={item.alt} css={"w-[8vh] h-[8vh] mr-[50px] mb-[50xp] hover:scale-110 transition-all duration-500"} img={item.icon} link={item.link}/>   
                    ))}
 
                 </div>

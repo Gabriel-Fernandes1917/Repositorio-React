@@ -29,7 +29,7 @@ export function ShowMe() {
                                 Gabriel Fernandes
                             </h1>
                             <div className="mt-6">
-                                <p className="text-xl text-grayText font-medium font-IBM">
+                                <p className="text-sm text-grayText font-medium font-IBM newScreen:text-x1">
                                     {/* Ola sou programador Web Front-end, sou apaixonado por empreendedorismo e inovações. */}
                                     {/* Sou programador Web Front-end jr */}
                                     Desenvolvedor junior front-end / Ux Design

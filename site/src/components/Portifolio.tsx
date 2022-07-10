@@ -14,7 +14,7 @@ export function Portifolio() {
     ]
 
     return(
-        <div className="bg-bgNoDark w-full h-screen  pb-11">
+        <div className="bg-bgNoDark w-full pb-[22vh]">
             <div className="w-[80%] h-full pt-16 mx-auto">
                 <div className="w-[70rem] mx-auto">
                     {/* text about me */}

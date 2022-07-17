@@ -15,22 +15,22 @@ export function Portifolio() {
 
     return(
         <div className="bg-bgNoDark w-full pb-[22vh]">
-            <div className="w-[80%] h-full pt-16 mx-auto">
-                <div className="w-[70rem] mx-auto">
+            <div className="w-[80vw] h-full pt-16 mx-auto">
+                <div className="w-full mx-auto px-4">
                     {/* text about me */}
                     <h2 className="mx-auto font-Raleway font-extrabold text-4xl text-center">Projetos</h2>
-                    <p className="font-IBM text-2xl h-full pt-5 text-justify">
+                    <p className="font-IBM text-xl h-full pt-5 text-justify tracking-tighter">
                        Segue abaixo alguns projetos pessoais e acadêmicos que produzir durante meus estudos.
                     </p>
 
 
-                    <div className="flex justify-between mt-16 ">
+                    <div className="block justify-between mt-16 desktop:flex">
                         {works.map((item)=>(
-                            <div className="w-96 h-80">
+                            <div className="desktop:max-w-xs">
                                 {/* <img src={item.thumb} alt={item.nome} className="w-fit h-fit rounded-lg"/> */}
-                                <Work site={item.site} css={"w-fit h-fit rounded-lg cursor-pointer hover:scale-110 hover:brightness-75 transition-all duration-500 "} thumb={item.thumb} nome={item.nome} />
+                                <Work site={item.site} css={"w-fit  h-fit rounded-lg cursor-pointer mt-4 hover:scale-110 hover:brightness-75 transition-all duration-500"} thumb={item.thumb} nome={item.nome} />
                                 <h3 className="font-Raleway text-2xl mt-4">{item.nome}</h3>
-                                <p className="font-IBM text-xl mt-4 text-justify">{item.text}</p>
+                                <p className="font-IBM text-xl mt-4 text-justify tracking-tighter">{item.text}</p>
 
                                 <div className="w-full mt-3 flex">
                                

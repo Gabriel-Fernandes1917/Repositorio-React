@@ -5,7 +5,7 @@ module.exports = {
   ],
   theme: {
     screens:{
-      newScreen: '1366px'
+      desktop: '1024px'
     },
     extend: {
       backgroundColor: {
@@ -24,8 +24,9 @@ module.exports = {
       ,
       textColor: {
         grayText: '#9C9C9C'
-      }
-      
+      },
+
+
     },
   },
   plugins: [],

@@ -39,37 +39,37 @@ export function AboutMe() {
                 <div className="w-[90%] mx-auto ">
                     {/* text about me */}
                     <h2 className="mx-auto font-Raleway font-extrabold text-4xl text-center">Sobre mim</h2>
-                    <p className="font-IBM text-2xl h-full pt-5 text-justify newScreen:text-lg">
+                    <p className="font-IBM text-1xl text-justify tracking-tighter h-full pt-5 ">
                         Sou estudante de engenharia da computação. Gosto muito de inovações e empreendedorismo principalmente os voltados para a área de programação web. Atualmente foco meus estudos e projetos em JavaScript, linguagem a qual quero me profissionalizar. Estou sempre em busca de novos conhecimentos e desafios que possibilitem expandir e aprimorar minhas habilidades. Compartilhar aprendizados, solucionar problemas, falar em público e conhecimento diversificado são meus principais diferenciais.
                     </p>
                 </div>
 
-                <div className="w-[60%] mx-auto mt-48">
+                <div className="w-[60vw] mx-auto mt-48">
                     {/* habilidades */}
                     <h2 className="mx-auto font-Raleway font-extrabold text-4xl text-center">Habilidades</h2>
                     <h3 className="font-Raleway font-extrabold text-3xl mt-20">Conhecidas:</h3>
-                    <div className="flex w-full mt-6">
+                    <div className="block w-full mt-6 desktop:flex">
                         {
                             skills.map((item)=>(
-                                <SkillsIcon nome={item.nome} icon={item.icon} css={"w-[100px] h-[100px] mr-12"}/>
+                                <SkillsIcon nome={item.nome} icon={item.icon} css={"w-[100px] h-[100px] mt-12 mx-auto"}/>
                             ))
                         }
                     </div>
                     
                     <h3 className="font-Raleway font-extrabold text-3xl mt-20">Aprendendo:</h3>
-                    <div className="flex w-full mt-6">
+                    <div className="block w-full mt-6 desktop:flex">
                         {
                             learning.map((item)=>(
-                                <SkillsIcon nome={item.nome} icon={item.icon} css={"w-[100px] h-[100px] mr-12"}/>
+                                <SkillsIcon nome={item.nome} icon={item.icon} css={"w-[100px] h-[100px] mt-12 mx-auto"}/>
                             ))
                         }
                     </div>
 
                     <h3 className="font-Raleway font-extrabold text-3xl mt-20">Outras:</h3>
-                    <div className="flex w-full mt-6">
+                    <div className="block w-full mt-6 desktop:flex">
                         {
                             otherSkills.map((item)=>(
-                                <SkillsIcon nome={item.nome} icon={item.icon} css={"w-[100px] h-[100px] mr-12"}/>
+                                <SkillsIcon nome={item.nome} icon={item.icon} css={"w-[100px] h-[100px] mt-12 mx-auto"}/>
                             ))
                         }
                     </div>

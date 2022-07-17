@@ -22,8 +22,8 @@ export function ShowMe() {
     return(
         <div className="w-full h-[90vh] bg-bgDark text-white pb-7">
             <div className="w-[70vw] h-full mx-auto">             
-                        <div className="block h-[70%] w-fit mx-auto desktop:flex">
-                            <img src={protfiINM} alt="PictureMe" className="w-[70vh] my-auto max-h-80 desktop:max-w-xs rounded-[50%] pt-4"/>
+                        <div className="block h-[80%] w-fit mx-auto desktop:flex desktop:h-[70%]">
+                            <img src={protfiINM} alt="PictureMe" className="w-full my-auto mx-auto max-h-80 max-w-xs desktop:max-w-xs rounded-[50%] pt-4"/>
 
                             <div className="mt-6 desktop:my-auto desktop:ml-5 desktop2:ml-">
                                 <h1 className="text-4xl mt-4 font-Raleway font-extrabold newScreen:text-5x1">
@@ -40,8 +40,8 @@ export function ShowMe() {
                 <p className="text-2xl">Deslise para baixo para ver mais</p>
                 <img src="./src/assets/iconDown.png" alt="IconDown" className="mx-auto"/>
                 </div> */}
-                <h3 className="font-IBM text-xl mt-4">Minhas redes </h3>
-                <div className="flex mt-2">
+                <h3 className="hidden font-IBM text-xl mt-4 desktop:flex">Minhas redes </h3>
+                <div className="hidden mt-2 desktop:flex">
 
                    {redes.map((item, index) =>(
                      <ButtonIcon alt={item.alt} css={"w-[7vh] h-[7vh] mr-[50px] mb-[50xp] hover:scale-110 transition-all duration-500"} img={item.icon} link={item.link}/>   

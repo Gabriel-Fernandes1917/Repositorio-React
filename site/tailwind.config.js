@@ -5,7 +5,8 @@ module.exports = {
   ],
   theme: {
     screens:{
-      desktop: '1024px'
+      desktop: '1024px',
+      desktop2: '1280px'
     },
     extend: {
       backgroundColor: {

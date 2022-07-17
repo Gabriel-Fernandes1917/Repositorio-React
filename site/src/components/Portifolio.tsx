@@ -19,12 +19,12 @@ export function Portifolio() {
                 <div className="w-full mx-auto px-4">
                     {/* text about me */}
                     <h2 className="mx-auto font-Raleway font-extrabold text-4xl text-center">Projetos</h2>
-                    <p className="font-IBM text-xl h-full pt-5 text-justify tracking-tighter">
+                    <p className="font-IBM text-xl h-full pt-5 text-justify tracking-tighter desktop2:text-center">
                        Segue abaixo alguns projetos pessoais e acadêmicos que produzir durante meus estudos.
                     </p>
 
 
-                    <div className="block justify-between mt-16 desktop:flex">
+                    <div className="block justify-between mt-16 desktop:flex desktop2:justify-evenly">
                         {works.map((item)=>(
                             <div className="desktop:max-w-xs">
                                 {/* <img src={item.thumb} alt={item.nome} className="w-fit h-fit rounded-lg"/> */}

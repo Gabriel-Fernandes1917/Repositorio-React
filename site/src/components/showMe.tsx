@@ -32,7 +32,7 @@ export function ShowMe() {
                                 <p className="text-x1 text-grayText font-medium font-IBM">
                                     {/* Ola sou programador Web Front-end, sou apaixonado por empreendedorismo e inovações. */}
                                     {/* Sou programador Web Front-end jr */}
-                                    Desenvolvedor junior front-end / Ux Design
+                                    Desenvolvedor web / Negócios
                                 </p>
                             </div>
                         </div>           

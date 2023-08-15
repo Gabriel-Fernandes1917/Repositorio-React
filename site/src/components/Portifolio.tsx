@@ -2,6 +2,7 @@ import { ButtonIcon } from "./ButtonIcon"
 import { Work } from "./Works"
 import caloriametrimetro from "../assets/works/caloriametrimetro.png"
 import igniteLab from "../assets/works/igniteLab.png"
+import PowShellUserAD from "../assets/works/PowShellUserAD.png"
 // import iconGitPS from "../assets/icons/iconGitPS.png"
 let iconGitPS = "https://img.icons8.com/color/48/000000/github--v1.png"
 
@@ -10,7 +11,8 @@ export function Portifolio() {
     const works = [
         {nome: "caloria metrimetro", thumb: caloriametrimetro , text: "Site que calcula quanto tempo de exercicio você precisa para perder peso desejado", git: "https://github.com/Gabriel-Fernandes1917/calorimeter", 
         tag:["HTML", "CSS", "JS"], site:"https://gabriel-fernandes1917.github.io/calorimeter/indexPTBR.html", iconGit: iconGitPS},
-        {nome: "Plataforma de Estudos", thumb: igniteLab, text: "Plataforma de ensino online", git: "https://github.com/Gabriel-Fernandes1917/IgniteLab",  tag:["TS", "Tailwind", "React"], site: "https://ignitelab-seven.vercel.app/", iconGit: iconGitPS}
+        {nome: "Plataforma de Estudos", thumb: igniteLab, text: "Plataforma de ensino online", git: "https://github.com/Gabriel-Fernandes1917/IgniteLab",  tag:["TS", "Tailwind", "React"], site: "https://ignitelab-seven.vercel.app/", iconGit: iconGitPS},
+        {nome: "Script de criação de usuário no AD", thumb: PowShellUserAD, text: "Script para automatizar o processo de criação de usuários no Microsoft Active Directory (AD)", git: "https://github.com/Gabriel-Fernandes1917/PowShellUser",  tag:["AD", "Python", "PowerShell"], site: "https://github.com/Gabriel-Fernandes1917/PowShellUser", iconGit: iconGitPS}
     ]
 
     return(
@@ -28,7 +30,7 @@ export function Portifolio() {
                         {works.map((item)=>(
                             <div className="desktop:max-w-xs">
                                 {/* <img src={item.thumb} alt={item.nome} className="w-fit h-fit rounded-lg"/> */}
-                                <Work site={item.site} css={"w-fit  h-fit max-h-52 rounded-lg cursor-pointer mt-4 hover:scale-110 hover:brightness-75 transition-all duration-500"} thumb={item.thumb} nome={item.nome} />
+                                <Work site={item.site} css={"w-fit  h-fit max-h-40 min-h-fit min-w-full rounded-lg cursor-pointer mt-4 hover:scale-110 hover:brightness-75 transition-all duration-500"} thumb={item.thumb} nome={item.nome} />
                                 <h3 className="font-Raleway text-2xl mt-4">{item.nome}</h3>
                                 <p className="font-IBM text-xl mt-4 text-justify tracking-tighter">{item.text}</p>
 

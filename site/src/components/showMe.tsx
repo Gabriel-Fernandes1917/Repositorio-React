@@ -1,9 +1,9 @@
 import { ButtonIcon } from "./ButtonIcon"
 import iconLinkedin from "../assets/icons/iconLinkedinPS.png"
 import mouseDown from "../assets/icons/mouseDown.jpg"
-// import iconGitPS from "../assets/icons/iconGitPS.png"
+import iconGitPS from "../assets/icons/iconGitPS.png"
 import protfiINM from "../assets/protfiINM.jpg"
-let iconGitPS = "https://img.icons8.com/plasticine/120/000000/github-squared.png"
+//let iconGitPS = "https://img.icons8.com/plasticine/120/000000/github-squared.png"
 
 interface rede {
     icon: string
@@ -13,7 +13,7 @@ interface rede {
 
 const redes=[
     {alt: "Linkedin", icon: iconLinkedin, link: "https://www.linkedin.com/in/gabriel-guilherme-santos-fernandes/"},
-    // {alt: "GitHub", icon: iconGitPS,  link: "https://github.com/Gabriel-Fernandes1917"}
+    {alt: "GitHub", icon: iconGitPS,  link: "https://github.com/Gabriel-Fernandes1917"}
 ]
 
 
@@ -32,7 +32,7 @@ export function ShowMe() {
                                 <p className="text-x1 text-grayText font-medium font-IBM">
                                     {/* Ola sou programador Web Front-end, sou apaixonado por empreendedorismo e inovações. */}
                                     {/* Sou programador Web Front-end jr */}
-                                    Desenvolvedor web / Negócios
+                                    Desenvolvedor de software / Negócios
                                 </p>
                             </div>
                         </div>           

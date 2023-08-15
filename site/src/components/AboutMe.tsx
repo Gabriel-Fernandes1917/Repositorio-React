@@ -5,12 +5,12 @@ import iconFigma from "../assets/icons/iconFigma.png"
 import iconGit from "../assets/icons/iconGit.png"
 import iconCSS from "../assets/icons/iconCSS.png"
 import iconTS from "../assets/icons/iconTS.png"
-import iconTailwindcss from "../assets/icons/iconTailwindcss.png"
-// import iconReact from "../assets/icons/iconReact.png"
+import iconPowerShell from "../assets/icons/iconPowerShell.png"
+import iconPython from "../assets/icons/iconPython.png"
 import iconUK from "../assets/icons/iconUK.svg"
 import iconArduino from "../assets/icons/iconArduino.png"
 import iconmysql from "../assets/icons/iconmysql.png"
-import iconAngula from "../assets/icons/iconAngula.png"
+
 
 export function AboutMe() {
     
@@ -26,8 +26,8 @@ export function AboutMe() {
 
     const learning =[
         {nome: "TS", icon: iconTS},
-        {nome: "Tailwind", icon: iconTailwindcss},
-        {nome: "Angula", icon: iconAngula}
+        {nome: "PowerShell", icon: iconPowerShell},
+        {nome: "Python", icon: iconPython}
     ]
 
     const otherSkills = [
@@ -43,7 +43,7 @@ export function AboutMe() {
                     {/* text about me */}
                     <h2 className="mx-auto font-Raleway font-extrabold text-4xl text-center">Sobre mim</h2>
                     <p className="font-IBM text-xl text-justify tracking-tighter h-full pt-5">
-                        Sou estudante de engenharia da computação. Gosto muito de inovações e empreendedorismo principalmente os voltados para a área de programação web. Atualmente foco meus estudos e projetos em TypeScript, linguagem a qual quero me profissionalizar. Estou sempre em busca de novos conhecimentos e desafios que possibilitem expandir e aprimorar minhas habilidades. Compartilhar aprendizados, solucionar problemas, falar em público e conhecimento diversificado são meus principais diferenciais.
+                        Sou estudante de engenharia da computação. Gosto muito de inovações e empreendedorismo principalmente os voltados para a área de programação, área na qual quero me profissionalizar. Estou sempre em busca de novos conhecimentos e desafios que possibilitem expandir e aprimorar minhas habilidades. Compartilhar aprendizados, solucionar problemas, falar em público e conhecimento diversificado são meus principais diferenciais.
                     </p>
                 </div>
 

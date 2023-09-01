@@ -1,7 +1,7 @@
 import { ButtonIcon } from "./ButtonIcon"
 import iconLinkedin from "../assets/icons/iconLinkedinPS.png"
 import mouseDown from "../assets/icons/mouseDown.jpg"
-import iconGitPS from "../assets/icons/iconGitPS.png"
+import iconGitPS from "../assets/icons/IconGitPS.png"
 import protfiINM from "../assets/protfiINM.jpg"
 //let iconGitPS = "https://img.icons8.com/plasticine/120/000000/github-squared.png"
 

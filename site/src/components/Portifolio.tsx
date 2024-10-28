@@ -67,7 +67,7 @@ export function Portifolio() {
                         {works.map((item)=>(
                             <div className="desktop:max-w-xs">
                                 {/* <img src={item.thumb} alt={item.nome} className="w-fit h-fit rounded-lg"/> */}
-                                <Work site={item.site} css={"w-fit  h-fit max-h-40 min-h-fit min-w-full rounded-lg cursor-pointer mt-4 hover:scale-110 hover:brightness-75 transition-all duration-500"} thumb={item.thumb} nome={item.nome} />
+                                <Work site={item.site} css={"w-fit h-fit max-h-40 min-h-fit min-w-full rounded-lg cursor-pointer mt-4 hover:scale-110 hover:brightness-75 transition-all duration-500 sm:max-h-32"} thumb={item.thumb} nome={item.nome} />
                                 <h3 className="font-Raleway text-2xl mt-4">{item.nome}</h3>
                                 <p className="font-IBM text-xl mt-4 text-justify tracking-tighter">{item.text}</p>
 

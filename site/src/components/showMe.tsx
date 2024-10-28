@@ -2,7 +2,7 @@ import { ButtonIcon } from "./ButtonIcon"
 import iconLinkedin from "../assets/icons/iconLinkedinPS.png"
 import mouseDown from "../assets/icons/mouseDown.jpg"
 import iconGitPS from "../assets/icons/IconGitPS.png"
-import protfiINM from "../assets/protfiINM.jpg"
+import protfiINM from "../assets/IMG_7057.jpg"
 //let iconGitPS = "https://img.icons8.com/plasticine/120/000000/github-squared.png"
 
 interface rede {
@@ -23,7 +23,7 @@ export function ShowMe() {
         <div className="w-full h-[90vh] bg-bgDark text-white pb-7">
             <div className="w-[70vw] h-full mx-auto">             
                         <div className="block h-[80%] w-fit mx-auto desktop:flex desktop:h-[70%]">
-                            <img src={protfiINM} alt="PictureMe" className="w-full my-auto mx-auto max-h-80 max-w-xs desktop:max-w-xs rounded-[50%] pt-4"/>
+                            <img src={protfiINM} alt="PictureMe" className="w-auto my-auto mx-auto max-h-80 max-w-xs desktop:max-w-xs rounded-[50%] pt-4"/>
 
                             <div className="mt-6 desktop:my-auto desktop:ml-5 desktop2:ml-">
                                 <h1 className="text-4xl mt-4 font-Raleway font-extrabold newScreen:text-5x1">
@@ -32,7 +32,7 @@ export function ShowMe() {
                                 <p className="text-x1 text-grayText font-medium font-IBM">
                                     {/* Ola sou programador Web Front-end, sou apaixonado por empreendedorismo e inovações. */}
                                     {/* Sou programador Web Front-end jr */}
-                                    Desenvolvedor de software / Negócios
+                                    Desenvolvedor Python / Automação de serviços
                                 </p>
                             </div>
                         </div>           

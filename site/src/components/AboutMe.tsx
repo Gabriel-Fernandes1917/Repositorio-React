@@ -4,12 +4,12 @@ import iconJS from "../assets/icons/iconJS.png"
 import iconFigma from "../assets/icons/iconFigma.png"
 import iconGit from "../assets/icons/iconGit.png"
 import iconCSS from "../assets/icons/iconCSS.png"
-import iconTS from "../assets/icons/iconTS.png"
+import iconServidores from "../assets/icons/Servidores.png"
 import iconPowerShell from "../assets/icons/iconPowerShell.png"
 import iconPython from "../assets/icons/iconPython.png"
 import iconUK from "../assets/icons/iconUK.svg"
 import iconArduino from "../assets/icons/iconArduino.png"
-import iconmysql from "../assets/icons/iconmysql.png"
+import iconSQL from "../assets/icons/iconeSQL.png"
 
 
 export function AboutMe() {
@@ -21,13 +21,13 @@ export function AboutMe() {
         {nome: "Figma", icon: iconFigma},
         {nome: "GIT", icon: iconGit},
         {nome: "CSS", icon: iconCSS},
-        {nome: "MySQL", icon: iconmysql}
+        {nome: "Servidores", icon: iconServidores},
+        {nome: "Python", icon: iconPython}
     ]
 
     const learning =[
-        {nome: "TS", icon: iconTS},
+        {nome: "SQL", icon: iconSQL},
         {nome: "PowerShell", icon: iconPowerShell},
-        {nome: "Python", icon: iconPython}
     ]
 
     const otherSkills = [
@@ -43,7 +43,7 @@ export function AboutMe() {
                     {/* text about me */}
                     <h2 className="mx-auto font-Raleway font-extrabold text-4xl text-center">Sobre mim</h2>
                     <p className="font-IBM text-xl text-justify tracking-tighter h-full pt-5">
-                        Sou estudante de engenharia da computação. Gosto muito de inovações e empreendedorismo principalmente os voltados para a área de programação, área na qual quero me profissionalizar. Estou sempre em busca de novos conhecimentos e desafios que possibilitem expandir e aprimorar minhas habilidades. Compartilhar aprendizados, solucionar problemas, falar em público e conhecimento diversificado são meus principais diferenciais.
+                    Sou um profissional de TI em constante evolução, atualmente atuando como Trainee em Análise de Dados. Tenho uma sólida experiência na área de suporte técnico, com foco em tratativas de incidentes e otimização de serviços. Meu objetivo é utilizar tecnologias como Python e automação para solucionar problemas de forma eficiente, impulsionar a inovação e gerar insights valiosos por meio da análise de dados. Estou sempre em busca de aprimorar minhas habilidades e desenvolver soluções que otimizem processos e agreguem valor aos negócios.
                     </p>
                 </div>
 
@@ -51,10 +51,10 @@ export function AboutMe() {
                     {/* habilidades */}
                     <h2 className="mx-auto font-Raleway font-extrabold text-4xl text-center">Habilidades</h2>
                     <h3 className="font-Raleway font-extrabold text-3xl mt-20">Conhecidas:</h3>
-                    <div className="block w-full mt-6 desktop:flex">
+                    <div className="block w-full mt-6 desktop:flex desktop:flex-wrap justify-center gap-4">
                         {
                             skills.map((item)=>(
-                                <SkillsIcon nome={item.nome} icon={item.icon} css={"w-[100px] h-[100px] mt-12 mx-auto"}/>
+                                <SkillsIcon nome={item.nome} icon={item.icon} css={"w-[100px] h-[100px] mt-12 mx-auto text-center"}/>
                             ))
                         }
                     </div>

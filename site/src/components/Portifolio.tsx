@@ -3,16 +3,53 @@ import { Work } from "./Works"
 import caloriametrimetro from "../assets/works/caloriametrimetro.png"
 import igniteLab from "../assets/works/igniteLab.png"
 import PowShellUserAD from "../assets/works/PowShellUserAD.png"
+import Buscamon from "../assets/works/Buscamon.webp"
+import RotasInteligentes from "../assets/works/RotasInteligentes.png"
 // import iconGitPS from "../assets/icons/iconGitPS.png"
 let iconGitPS = "https://img.icons8.com/color/48/000000/github--v1.png"
 
 export function Portifolio() {
     
     const works = [
-        {nome: "caloria metrimetro", thumb: caloriametrimetro , text: "Site que calcula quanto tempo de exercicio você precisa para perder peso desejado", git: "https://github.com/Gabriel-Fernandes1917/calorimeter", 
-        tag:["HTML", "CSS", "JS"], site:"https://gabriel-fernandes1917.github.io/calorimeter/indexPTBR.html", iconGit: iconGitPS},
-        {nome: "Plataforma de Estudos", thumb: igniteLab, text: "Plataforma de ensino online", git: "https://github.com/Gabriel-Fernandes1917/IgniteLab",  tag:["TS", "Tailwind", "React"], site: "https://ignitelab-seven.vercel.app/", iconGit: iconGitPS},
-        {nome: "Script de criação de usuário no AD", thumb: PowShellUserAD, text: "Script para automatizar o processo de criação de usuários no Microsoft Active Directory (AD)", git: "https://github.com/Gabriel-Fernandes1917/PowShellUser",  tag:["AD", "Python", "PowerShell"], site: "https://github.com/Gabriel-Fernandes1917/PowShellUser", iconGit: iconGitPS}
+        {nome: "caloria metrimetro",
+        thumb: caloriametrimetro,
+        text: "Site que calcula quanto tempo de exercicio você precisa para perder peso desejado",
+        git: "https://github.com/Gabriel-Fernandes1917/calorimeter", 
+        tag:["HTML", "CSS", "JS"],
+        site:"https://gabriel-fernandes1917.github.io/calorimeter/indexPTBR.html",
+        iconGit: iconGitPS},
+
+        {nome: "Plataforma de Estudos",
+        thumb: igniteLab,
+        text: "Plataforma de ensino online",
+        git: "https://github.com/Gabriel-Fernandes1917/IgniteLab",
+        tag:["TS", "Tailwind", "React"],
+        site: "https://ignitelab-seven.vercel.app/",
+        iconGit: iconGitPS},
+
+        {nome: "Script de criação de usuário no AD",
+        thumb: PowShellUserAD,
+        text: "Script para automatizar o processo de criação de usuários no Microsoft Active Directory (AD)",
+        git: "https://github.com/Gabriel-Fernandes1917/PowShellUser",
+        tag:["AD", "Python", "PowerShell"],
+        site: "https://github.com/Gabriel-Fernandes1917/PowShellUser",
+        iconGit: iconGitPS},
+
+        {nome: "Buscamon",
+        thumb: Buscamon,
+        text: "Programa que tem como objetivo ajudar o usuário a encontrar o tipo do Pokemon que procura.",
+        git: "https://github.com/Gabriel-Fernandes1917/BGC-Scraping",
+        tag:["Node", "JS", "Web Scraping"],
+        site: "https://github.com/Gabriel-Fernandes1917/BGC-Scraping",
+        iconGit: iconGitPS},
+
+        {nome: "Rotas Inteligentes",
+        thumb: RotasInteligentes,
+        text: "Projeto, no qual utilizando Python, API TomTom, ESP 32 e uma tela LCD desenvolvi junto a minha equipe um painel de trânsito, o qual informa o tempo da viagem aos motoristas da via.",
+        git: "https://github.com/Gabriel-Fernandes1917/Rotas-Inteligentes",
+        tag:["Python", "Flask", "TomTom", "C++"],
+        site: "https://github.com/Gabriel-Fernandes1917/Rotas-Inteligentes",
+        iconGit: iconGitPS}
     ]
 
     return(
@@ -26,7 +63,7 @@ export function Portifolio() {
                     </p>
 
 
-                    <div className="block justify-between mt-16 desktop:flex desktop2:justify-evenly">
+                    <div className="block justify-between mt-16 desktop:flex flex-wrap gap-2 desktop2:justify-evenly">
                         {works.map((item)=>(
                             <div className="desktop:max-w-xs">
                                 {/* <img src={item.thumb} alt={item.nome} className="w-fit h-fit rounded-lg"/> */}
